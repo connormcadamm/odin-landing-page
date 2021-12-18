@@ -4,16 +4,19 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.header, .opening {
+    background-color: #41B3A3;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #41B3A3;
     margin: 0;
     padding: 0;
 }
 
-.logo, a {
+.logo, a, .info {
     color: #F0F0F0;
 }
 
@@ -32,4 +35,34 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.opening {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 75px;
+}
+
+.info, .image {
+    width: 350px;
+    height: 250px;
+}
+
+.image, button {
+    background-color: #F0F0F0;
+    color: #616161;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-width: 0px;
 }
